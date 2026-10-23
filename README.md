@@ -1,5 +1,4 @@
-﻿@'
-# Practica 06: Redes Recurrentes (RNN y LSTM) en PyTorch
+﻿# Practica 06: Redes Recurrentes (RNN y LSTM) en PyTorch
 
 ## Descripcion General
 Implementacion y evaluacion comparativa de arquitecturas recurrentes (**RNN Simple** y **LSTM**) bajo el paradigma *Many-to-One* para el pronostico de series temporales continuas (onda senoidal sintetica) utilizando PyTorch.
