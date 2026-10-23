@@ -19,10 +19,10 @@ Se analizo el impacto de variar la dimension del estado oculto (`hidden_size`) s
 
 - **Con `hidden_size = 16`:**
   - Parametros entrenables RNN: **321**
-  - Parametros entrenables LSTM: **1,201**
+  - Parametros entrenables LSTM: **1,233**
 - **Con `hidden_size = 64`:**
   - Parametros entrenables RNN: **4,353**
-  - Parametros entrenables LSTM: **17,601**
+  - Parametros entrenables LSTM: **17,729**
 
 **Impacto:** El incremento cuadruplica la complejidad debido a las matrices internas de pesos recurrentes ($W_{hh}$ en RNN y las cuatro compuertas en LSTM), cuyo costo en parametros escala de forma cuadratica ($O(hidden\_size^2)$).
 
